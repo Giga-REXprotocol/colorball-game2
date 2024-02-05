@@ -1,0 +1,146 @@
+@charset "UTF-8";
+body {
+  margin: auto;
+  font-family: "Merienda", cursive;
+  background: #05ad4b;
+  text-align: center;
+  font-weight: bold;
+}
+
+.share_line {
+  background-color: #00b900;
+}
+
+header {
+  text-align: center;
+  background-color: darkorange;
+}
+
+a {
+  width: 150px;
+}
+
+.container {
+  position: relative;
+  width: -200px;
+  height: 700px;
+  text-align: center;
+}
+
+.message {
+  position: absolute;
+  display: none;
+  text-align: center;
+  top: 250px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0 0 30px;
+  margin: 0px;
+}
+
+.message p {
+  margin: 0px;
+  text-align: center;
+}
+
+.mainText {
+  font-size: 64px;
+  color: #F00;
+  text-align: center;
+}
+
+.subText {
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.score-container {
+  width: 420px;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+img {
+  top: 4%;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  font-family: arial;
+}
+
+button {
+  display: inline-block;
+  width: 300px;
+  max-width: 90%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 10px;
+  background: #cf1111;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+button {
+  display: inline-block;
+  width: 300px;
+  max-width: 90%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 10px;
+  background: #cf1111;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+button {
+  display: inline-block;
+  width: 300px;
+  max-width: 90%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 10px;
+  background: #cf1111;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ボタンをキラッとさせる */
+button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  background-image: linear-gradient(130deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 75%);
+  /* 【変更部分】inifiniteによりずっと続ける */
+  animation: shine 1s infinite;
+}
+@keyframes shine {
+  100% {
+    left: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
